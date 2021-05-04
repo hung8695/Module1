@@ -16,6 +16,6 @@ class Animal{
         return this.weight;
     }
     ToString(){
-        return 'name :'+this.name+' weight: '+ this.weight;
+        return 'name :'+this.getName()+' weight: '+ this.getWeight();
     }
 }
