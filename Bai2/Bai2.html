@@ -13,7 +13,11 @@
   for (let i = 0; i <n ; i++) {
     arr[i]=Math.round(Math.random()*100)
   }
-  alert(checkNumber(arr,num)+' '+arr);
+  document.write(arr+'<br/>')
+  if(checkNumber(arr,num)){
+  document.write("So "+num+" nam o vi tri thu "+checkNumber(arr,num))}
+  else document.write("So "+num+" khong co trong mang");
+
 </script>
 </body>
 </html>

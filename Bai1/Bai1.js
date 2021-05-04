@@ -7,6 +7,6 @@ function giaiPtBac1(a,b){
             return "Phuong trinh vo nghiem";
         }
     } else{
-        return b/a;
+        return -b/a;
     }
 }
